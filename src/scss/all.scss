@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+.container {
+    display: grid;
+    justify-content: center;
+    font-family: 'Muli', sans-serif;
+    grid-gap: 10px;
+}
+
+.input-user {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 5px;
+    justify-content: center;
+}
+
+.input-user p {
+    font-size: 12px;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #EBF5FB;
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEDED;
+    height: 35px
+}
+
+button {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    background-color: #2ECC71;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.message {
+    text-align: center;
+    margin: 10px;
+    background-color: #CB4335;
+    color: white;
+    padding: 10px;
+}
+
+.config {
+    width: 138px;
+    font-size: 14px;
+    justify-self: center;
+}
+
+.container-btn {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 5px;
+    margin-bottom: 30px
+}
+
+.big-msg {
+    background-color: #CB4335;
+}
+
+.small-msg {
+    background-color: #F4D03F;
+}
+
+.win-msg {
+    background-color: #4EDE27;
+}
+
+.btn-empezar {
+    background-color: #35CBC9;
+}
+
+.btn-salir {
+    background-color: #7EF1EF;
+    //border: 1px solid #35CBC9;
+}
+
+.introNumero {
+    display: grid;
+    grid-gap: 10px;
+}
+
+header {
+    background-color: rgba($color: #2874A6, $alpha: 0.2);
+    height: 45px;
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header p {
+    margin: 0;
+}
+
+.submit {
+    background-color: #2ECC71;
+}
+
+.again {
+    background-color: #DE8B27;
+}
+
+.user {
+    background-color: #F4D03F;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
